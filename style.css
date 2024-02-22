@@ -1,0 +1,41 @@
+.text-box h3:nth-of-type(1) {
+    color: pink;
+  }
+  #greycol {
+    color: grey;
+  }
+  .text-box > div p {
+    color: red;
+  }
+  .text-box p:nth-of-type(2) {
+    color: green;
+  }
+  .text-box .yellow {
+    color: yellow;
+  }
+  .lessons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lessons-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  .lessons-container li:nth-child(odd) {
+    background-color: lightblue;
+  }
+  .lessons-container li:nth-child(even) {
+    background-color: lightgreen;
+  }
+  .lessons-container li:hover {
+    transform: scale(1.1);
+  }
+  .lessons-container li:active {
+    background-color: yellow;
+  }
+  .lessons-container li:first-child {
+    font-weight: bold;
+  }
+  .lessons-container li:last-child {
+    font-style: italic;
+  }
